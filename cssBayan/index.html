@@ -4,50 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FAQ html\css</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <div class="wrapper">
-        <div class="row">
-            <div class="accordion">
-                <details class="accordion_item">
-                    <summary class="accordion_title">Just fix me</summary>
-                    <p class="accordion_body">
-                        Some text for accordion. And more and more and more text.
-                    </p>
-                </details>
 
-                <details class="accordion_item">
-                    <summary class="accordion_title">Hate and love</summary>
-                    <p class="accordion_body">
-                        Some text for accordion. And more and more and more text.
-                    </p>
-                </details>
-
-                <details class="accordion_item">
-                    <summary class="accordion_title">DEV and QA</summary>
-                    <p class="accordion_body">
-                        Some text for accordion. And more and more and more text.
-                    </p>
-                </details>
-
-                <details class="accordion_item">
-                    <summary class="accordion_title">The job interview</summary>
-                    <p class="accordion_body">
-                        Some text for accordion. And more and more and more text.
-                    </p>
-                </details>
-
-                <details class="accordion_item">
-                    <summary class="accordion_title">Russian meme</summary>
-                    <p class="accordion_body">
-                        Some text for accordion. And more and more and more text.
-                    </p>
-                </details>
+    <div class="faq"> <!-- сам элемент faq -->
+        <div class="faq_item"> <!-- каждый вопрос с ответом будут находиться в таком блоке -->
+            <input class="faq_input" type="checkbox" id="faq_1">
+            <label class="faq_title" for="faq_1">Just fix me</label> <!--заголовок = вопрос -->
+                <div class="faq_text"> <!-- здесь будет ответ на вопрос -->
+                <p>Ответ на вопрос. Здесь должна быть картинка в моем случае, а пока что будет висеть этот текст</p> <!-- собственно ответ на вопрос-->
             </div>
+        </div>      
+    </div>
 
-        </div>
+    <div class="faq"> <!-- сам элемент faq -->
+        <div class="faq_item"> <!-- каждый вопрос с ответом будут находиться в таком блоке -->
+            <input class="faq_input" type="checkbox" id="faq_2">
+            <label class="faq_title" for="faq_2">Just fix me</label> <!--заголовок = вопрос -->
+                <div class="faq_text"> <!-- здесь будет ответ на вопрос -->
+                <p>Ответ на вопрос. Здесь должна быть картинка в моем случае, а пока что будет висеть этот текст</p> <!-- собственно ответ на вопрос-->
+            </div>
+        </div>      
     </div>
     
 </body>
